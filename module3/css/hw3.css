@@ -1,0 +1,126 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+header{
+  background-color: #92833F;
+  background-image: url(http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg);
+  padding: 40px;  
+  background-size:cover;
+}
+h1{
+  font-family: Cabin, sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 30px;
+}
+nav{
+  padding-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+nav a{
+  font-family: Cabin, sans-serif;
+  display: inline-block;
+  padding: 10px 60px;
+  margin-right: 60px;
+  margin-left: 60px;
+  text-decoration: none;
+  border: 1px solid #FFFFFF;
+  background: white;
+  opacity: 60%;
+  border-color: white;
+  border-radius: 8px;
+  color: #000000;
+  font-size: 15px;
+}
+ nav a:hover{
+  background: white;
+  opacity: 100%;
+  color: #0F7281;
+}
+
+.left{
+  display : block;
+  float: left;
+  width : 20%;
+  text-align: center;
+  background-color: #92833F;
+}
+
+.left img{
+  width : 150px;
+  border : 2px solid black;
+  margin : 20px 0px;
+}
+
+.right{
+  width:75%;
+  float: left;
+  padding: 10px;
+}
+
+h2{
+  font-family: Cabin, sans-serif;
+}
+
+.active{
+  background-color : #white; 
+}
+table{
+  font-size: 20px;
+  font-family: Cabin, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 200%;
+  width:80%;
+  margin: 0 auto;  
+}
+th{
+  text-align: center;
+  background-image: linear-gradient(#92833F, #79A0B5);
+  border: 2px solid #AFCD5A;  
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-width: thick;
+  transition-property: color;
+  transition-duration: .5s;
+  transition-timing:function:linear;
+  transition-delay:.3s;}
+th:hover{
+  color: #AFCD5A;
+}
+th:first-child{
+  text-align: left;
+}
+th:nth-child(2){
+  text-align:center;}
+th:nth-child(3){
+  text-align: center;
+}
+tr:first-child{
+  text-align: left;
+}
+td{
+  background: #E8FFA6;
+  color: #000000;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 2px;
+  text-shadow: 1px 1px 5px  #0F7281;
+  opacity: 0.8;
+ transition-property: opacity;
+  transition-duration: .1s;
+  transition-timing:function:linear;
+  transition-delay:.1s;}
+td:hover{
+  opacity:1;
+}
+td:nth-child(2){
+  text-align: center;
+}
+td:nth-child(3){
+  text-align: center;
+}
